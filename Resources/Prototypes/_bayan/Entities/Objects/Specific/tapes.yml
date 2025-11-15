@@ -11,7 +11,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _MRI/Objects/Devices/tapes.rsi
+    sprite: _bayan/Objects/Devices/tapes.rsi
   - type: Tag
     tags:
     - MusicTape
@@ -25,7 +25,7 @@
   - type: Sprite
     state: tape2
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/magnitofon.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/magnitofon.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -36,7 +36,7 @@
   - type: Sprite
     state: tape1
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/absoluteterr.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/absoluteterr.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -47,7 +47,7 @@
   - type: Sprite
     state: tape7
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/bolni.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/bolni.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -58,7 +58,7 @@
   - type: Sprite
     state: tape23
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/caramel.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/caramel.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -69,7 +69,7 @@
   - type: Sprite
     state: tape1
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/darkisthenight.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/darkisthenight.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -80,7 +80,7 @@
   - type: Sprite
     state: tape35
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/doroga.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/doroga.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -91,7 +91,7 @@
   - type: Sprite
     state: tape16
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/everlong.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/everlong.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -102,7 +102,7 @@
   - type: Sprite
     state: tape22
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/giperborei.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/giperborei.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -113,7 +113,7 @@
   - type: Sprite
     state: tape12
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/heartbit.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/heartbit.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -124,7 +124,7 @@
   - type: Sprite
     state: tape29
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/Joji_Tick_Tock.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/Joji_Tick_Tock.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -135,7 +135,7 @@
   - type: Sprite
     state: tape7
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/MDSHW.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/MDSHW.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -146,7 +146,7 @@
   - type: Sprite
     state: tape20
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/nasever.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/nasever.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -157,7 +157,7 @@
   - type: Sprite
     state: tape24
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/stavnazero.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/stavnazero.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -168,7 +168,7 @@
   - type: Sprite
     state: tape10
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/nazminaknopku.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/nazminaknopku.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -179,7 +179,7 @@
   - type: Sprite
     state: tape26
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/patroni.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/patroni.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -190,7 +190,7 @@
   - type: Sprite
     state: tape17
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/poplanu.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/poplanu.ogg"
 
 - type: entity
   parent: BaseMusicTape
@@ -201,7 +201,7 @@
   - type: Sprite
     state: tape21
   - type: MusicTape
-    sound: "/Audio/_MRI/TapePlayer/Tracks/riptide.ogg"
+    sound: "/Audio/_bayan/TapePlayer/Tracks/riptide.ogg"
 
 - type: entity
   parent: BaseMusicTape

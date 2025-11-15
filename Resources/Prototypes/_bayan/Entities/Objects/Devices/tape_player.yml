@@ -6,7 +6,7 @@
   components:
   - type: Appearance
   - type: Sprite
-    sprite: _MRI/Objects/Devices/tape_player.rsi
+    sprite: _bayan/Objects/Devices/tape_player.rsi
     state: icon
   - type: TapePlayer
     volume: -4
@@ -18,8 +18,8 @@
     slots:
       tape:
         name: Tape slot
-        insertSound: /Audio/_MRI/TapePlayer/insert_tape.ogg
-        ejectSound: /Audio/_MRI/TapePlayer/eject_tape.ogg
+        insertSound: /Audio/_bayan/TapePlayer/insert_tape.ogg
+        ejectSound: /Audio/_bayan/TapePlayer/eject_tape.ogg
         whitelist:
           tags:
           - MusicTape
@@ -27,4 +27,4 @@
     containers:
       tape: !type:ContainerSlot
   - type: EmitSoundOnUse
-    sound: /Audio/_MRI/TapePlayer/switch.ogg
+    sound: /Audio/_bayan/TapePlayer/switch.ogg
