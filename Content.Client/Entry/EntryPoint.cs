@@ -44,7 +44,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Content.Client.ADT.Export;
-using Content.Client.ADT.Discord;
 
 namespace Content.Client.Entry
 {
@@ -86,7 +85,6 @@ namespace Content.Client.Entry
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
         [Dependency] private readonly ExportManager _exportManager = default!;  // ADT export
         [Dependency] private readonly IEntitySystemManager _entitySystemManager = default!;
-        [Dependency] private readonly DiscordIdManager _discordIdManager = default!;  // ADT export
         [Dependency] private readonly ClientsidePlaytimeTrackingManager _clientsidePlaytimeManager = default!;
 
         public override void Init()
@@ -194,7 +192,6 @@ namespace Content.Client.Entry
             _sponsorsManager.Initialize(); // Corvax-Sponsors
             _queueManager.Initialize(); // Corvax-Queue
             _discordAuthManager.Initialize(); // Corvax-DiscordAuth
-            _discordIdManager.Initialize(); // ADT-Discord
             _exportManager.Initialize();    // ADT Export
             _documentParsingManager.Initialize();
             _titleWindowManager.Initialize();

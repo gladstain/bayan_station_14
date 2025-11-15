@@ -49,7 +49,7 @@
                                     </BoxContainer>
                                 </controls:StripeBack>
                                 <RichTextLabel Name="PlaytimeComment" Visible="False" Access="Public" HorizontalAlignment="Center" />
-                                <!-- ADT-Tweak-Start: Новая панель с двумя кнопками -->
+                                <!-- ADT-Tweak-Start: Новая панель с двумя кнопками
                                 <controls:StripeBack Name="LobbyPanelLeftTop" Margin="1 -10 0 0" Visible="False">
                                     <BoxContainer Orientation="Horizontal" SeparationOverride="3" Margin="1" Visible="True">
                                         <cc:UICommandButton Name="DiscordLinkButton"
@@ -70,7 +70,7 @@
                                                             Margin="3" />
                                     </BoxContainer>
                                 </controls:StripeBack>
-                                <!-- ADT-Tweak-End -->
+                                ADT-Tweak-End -->
                             </BoxContainer>
                         </PanelContainer>
                         <!-- Voting Popups -->
