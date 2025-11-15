@@ -15,7 +15,6 @@
   - ADTRule7
   - ADTRule8
   - ADTRule9
-  - ADTRule10
 
 - type: guideEntry
   id: ADTRule0
@@ -86,13 +85,6 @@
   priority: 10
   ruleEntry: true
   text: "/ServerInfo/ADT/Guidebook/ServerRules/Rule9.xml"
-
-- type: guideEntry
-  id: ADTRule10
-  name: Правило 10
-  priority: 11
-  ruleEntry: true
-  text: "/ServerInfo/ADT/Guidebook/ServerRules/Rule10.xml"
 
 - type: entity
   parent: BasePlushie
