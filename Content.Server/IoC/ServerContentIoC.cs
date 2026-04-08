@@ -36,9 +36,63 @@ using Content.Shared.IoC;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
-using Content.Server.ADT.Discord;
 
+<<<<<<< Updated upstream
 namespace Content.Server.IoC;
+=======
+namespace Content.Server.IoC
+{
+    internal static class ServerContentIoC
+    {
+        public static void Register()
+        {
+            IoCManager.Register<IChatManager, ChatManager>();
+            IoCManager.Register<ISharedChatManager, ChatManager>();
+            IoCManager.Register<IChatSanitizationManager, ChatSanitizationManager>();
+            IoCManager.Register<IServerPreferencesManager, ServerPreferencesManager>();
+            IoCManager.Register<IServerDbManager, ServerDbManager>();
+            IoCManager.Register<RecipeManager, RecipeManager>();
+            IoCManager.Register<INodeGroupFactory, NodeGroupFactory>();
+            IoCManager.Register<IConnectionManager, ConnectionManager>();
+            IoCManager.Register<ServerUpdateManager>();
+            IoCManager.Register<IAdminManager, AdminManager>();
+            IoCManager.Register<ISharedAdminManager, AdminManager>();
+            IoCManager.Register<EuiManager, EuiManager>();
+            IoCManager.Register<IVoteManager, VoteManager>();
+            IoCManager.Register<IPlayerLocator, PlayerLocator>();
+            IoCManager.Register<IAfkManager, AfkManager>();
+            IoCManager.Register<IGameMapManager, GameMapManager>();
+            IoCManager.Register<RulesManager, RulesManager>();
+            IoCManager.Register<IBanManager, BanManager>();
+            IoCManager.Register<ContentNetworkResourceManager>();
+            IoCManager.Register<IAdminNotesManager, AdminNotesManager>();
+            IoCManager.Register<GhostKickManager>();
+            IoCManager.Register<ISharedAdminLogManager, AdminLogManager>();
+            IoCManager.Register<IAdminLogManager, AdminLogManager>();
+            IoCManager.Register<PlayTimeTrackingManager>();
+            IoCManager.Register<UserDbDataManager>();
+            IoCManager.Register<SponsorsManager>(); // Corvax-Sponsors
+            IoCManager.Register<JoinQueueManager>(); // Corvax-Queue
+            IoCManager.Register<TTSManager>(); // Corvax-TTS
+            IoCManager.Register<DiscordAuthManager>(); // Corvax-DiscordAuth
+            IoCManager.Register<ServerInfoManager>();
+            IoCManager.Register<PoissonDiskSampler>();
+            IoCManager.Register<DiscordWebhook>();
+            IoCManager.Register<VoteWebhooks>();
+            IoCManager.Register<ServerDbEntryManager>();
+            IoCManager.Register<ISharedPlaytimeManager, PlayTimeTrackingManager>();
+            IoCManager.Register<ServerApi>();
+            IoCManager.Register<JobWhitelistManager>();
+            IoCManager.Register<PlayerRateLimitManager>();
+            IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
+            IoCManager.Register<MappingManager>();
+            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
+            IoCManager.Register<IDiscordBanInfoSender, DiscordBanInfoSender>(); //ADT Tweak: логи банов для диса
+            IoCManager.Register<ExportManager>(); // ADT Export
+            IoCManager.Register<ConnectionManager>();
+            IoCManager.Register<MultiServerKickManager>();
+            IoCManager.Register<CVarControlManager>();
+>>>>>>> Stashed changes
 
 internal static class ServerContentIoC
 {

@@ -24,7 +24,6 @@
   - CorvaxRule7
   - CorvaxRule8
   - CorvaxRule9
-  - CorvaxRule10
   - CorvaxPunishmentTypes
 
 - type: guideEntry
@@ -160,13 +159,6 @@
   ruleEntry: true
   text: "/ServerInfo/Corvax/Guidebook/ServerRules/Rule9.xml"
 
-- type: guideEntry
-  id: CorvaxRule10
-  name: Правило 10
-  priority: 19
-  ruleEntry: true
-  text: "/ServerInfo/Corvax/Guidebook/ServerRules/Rule10.xml"
-
 # LRP rules
 - type: guideEntry
   id: CorvaxLRPRuleset
@@ -189,7 +181,6 @@
   - CorvaxLRPRule7
   - CorvaxLRPRule8
   - CorvaxLRPRule9
-  - CorvaxLRPRule10
 
 - type: guideEntry
   id: CorvaxLRPRule0
@@ -288,10 +279,3 @@
   priority: 18
   ruleEntry: true
   text: "/ServerInfo/Corvax/Guidebook/ServerRules/LRPRule9.xml"
-
-- type: guideEntry
-  id: CorvaxLRPRule10
-  name: Правило 10
-  priority: 19
-  ruleEntry: true
-  text: "/ServerInfo/Corvax/Guidebook/ServerRules/LRPRule10.xml"

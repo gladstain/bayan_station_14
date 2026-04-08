@@ -15,7 +15,6 @@
   - ADTRule7
   - ADTRule8
   - ADTRule9
-  - ADTRule10
 
 - type: guideEntry
   id: ADTRule0
@@ -87,6 +86,7 @@
   ruleEntry: true
   text: "/ServerInfo/ADT/Guidebook/ServerRules/Rule9.xml"
 
+<<<<<<< Updated upstream
 - type: guideEntry
   id: ADTRule10
   name: Правило 10
@@ -101,6 +101,8 @@
   ruleEntry: true
   text: "/ServerInfo/ADT/Guidebook/ServerRules/FlavorTextRules.xml"
 
+=======
+>>>>>>> Stashed changes
 - type: entity
   parent: BasePlushie
   id: ADTIconAdventureTime

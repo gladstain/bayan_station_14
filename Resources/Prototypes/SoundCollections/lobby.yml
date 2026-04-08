@@ -1,6 +1,7 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+<<<<<<< Updated upstream
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/absconditus.ogg
     - /Audio/Lobby/space_asshole.ogg
@@ -40,3 +41,13 @@
     - /Audio/ADT/Lobby/Home_-_Were_Finally_Landing.ogg
     # ADT music end
     - /Audio/Corvax/Lobby/nodecision.ogg # Corvax-LobbyMusic
+=======
+    - /Audio/Lobby/10. 1000 Eyes, Tom Schley - Train Ride.ogg
+    - /Audio/Lobby/12. 1000 Eyes, Tom Schley - MNHR.ogg
+    - /Audio/Lobby/14. 1000 Eyes, Tom Schley - Adler.ogg
+    - /Audio/Lobby/20. 1000 Eyes, Tom Schley - Eulenlieder.ogg
+    - /Audio/Lobby/34. 1000 Eyes, Tom Schley - The Red Gate.ogg
+    - /Audio/Lobby/45. 1000 Eyes, Tom Schley - Dream Diary.ogg
+    - /Audio/Lobby/47. 1000 Eyes, Tom Schley - Teeth.ogg
+    - /Audio/Lobby/49. 1000 Eyes, Tom Schley - Home.ogg
+>>>>>>> Stashed changes
